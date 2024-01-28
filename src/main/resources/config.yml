@@ -22,8 +22,8 @@ structures:
 # in the listed worlds will be removed.
 # When set to 'DENY' gilded blackstone will get removed in any world, expect for the ones
 # listed in 'worlds'.
-worlds-list-type: 'ALLOW'
+worlds-list-type: "ALLOW"
 
 # A list of worlds, see explanation for 'worlds-list-type' for more information
 worlds:
-  - 'world_nether'
+  - "world_nether"
