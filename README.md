@@ -23,5 +23,6 @@ and with a deny-list / allow-list also which worlds it should affect.
 
 # Links
 
+* [SpigotMC plugin page](https://www.spigotmc.org/resources/114762/)
 * [Support](https://github.com/DerFrZocker/NoGildedBlackstone/discussions)
 * [Donate](https://github.com/sponsors/DerFrZocker)
