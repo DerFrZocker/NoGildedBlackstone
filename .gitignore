@@ -1,0 +1,6 @@
+# InteliJ
+.idea/*
+!/.idea/icon.png
+
+# maven
+target
