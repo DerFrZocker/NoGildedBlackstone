@@ -1,0 +1,29 @@
+####################################################################################
+#                                                                                  #
+#                                NoGildedBlackstone                                #
+#                                                                                  #
+#          SOURCE CODE: https://github.com/DerFrZocker/NoGildedBlackstone          #
+#      SUPPORT: https://github.com/DerFrZocker/NoGildedBlackstone/discussions      #
+#       BUG REPORTS: https://github.com/DerFrZocker/NoGildedBlackstone/issues      #
+#                  DONATE: https://github.com/sponsors/DerFrZocker                 #
+#                                                                                  #
+####################################################################################
+
+# NOTE: This plugin only works on newly generated chunks and only on gilded blackstone
+#       generated with structures
+
+# A list of structures, which should be scanned for gilded blackstone
+# Supports minecraft vanilla structures and data packs structures
+# A list of structures can be found here: https://minecraft.wiki/w/Structure#ID
+structures:
+  - "minecraft:bastion_remnant"
+
+# How the 'worlds' list should be treated, when set to 'ALLOW' only gilded blackstone
+# in the listed worlds will be removed.
+# When set to 'DENY' gilded blackstone will get removed in any world, expect for the ones
+# listed in 'worlds'.
+worlds-list-type: 'ALLOW'
+
+# A list of worlds, see explanation for 'worlds-list-type' for more information
+worlds:
+  - 'world_nether'

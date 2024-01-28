@@ -1,0 +1,6 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: DerFrZocker
+main: de.derfrzocker.no.gilded.blackstone.NoGildedBlackstone
+api-version: 1.20
